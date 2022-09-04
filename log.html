@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Sing Up Page </title>
+    <link rel="stylesheet" href="style4.css" />
+<!-- This is Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+        <section class="header">
+            <nav>
+              <a href="firstpage.html"><img src="img/logo3.png" alt=""></a>
+              <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                   <li><a href="firstpage.html"> HOME </a></li>
+                   <li><a href="about.html"> About Us </a></li>
+                    <li><a href="log.html"> Sign in/Up </a></li>
+                    <li><a href="cont.html"> Contact Us </a></li>
+                    <li><a href="price.html"> PREMIUM </a></li>
+                    <li><a href="courses.html"> Courses </a></li>
+                </ul>
+
+              </div>
+              <i class="fa fa-bars" onclick="showmenu()"></i>
+            </nav>
+
+
+
+
+<!-- signup -->
+
+
+<div class="signup-box">
+  <h1>Sign Up</h1>
+  <h4>Test Page</h4>
+  <form>
+    <label>First Name</label>
+    <input type="text" Txt="" />
+
+    <label>Last Name</label>
+    <input type="text" txt="" />
+
+    <label>Email</label>
+    <input type="email" txt="" />
+
+    <label>Password</label>
+    <input type="password" txt="" />
+<br></br>
+    Hobbies:<br>
+    <input type="checkbox" name="reading" value=
+  "reading" tabingdex="1" />Reading </br>
+  <input type="checkbox" name="Jogging" value=
+"Jogging" tabingdex="2" />Jogging </br>
+<input type="checkbox" name="Coding" value=
+"Coding" tabingdex="1" />Coding </br>
+<br></br>
+
+<div class="select">
+<select name="format" id="format">
+  <option selected disabled> Choose your country </option> <br></br>
+  <option value="Egypt">Egypt</option>
+  <option value="Spain">Spain</option>
+  <option value="France">France</option>
+  <br></br> <br></br>
+
+  <tr><td> Age: </td>
+    <br></br> <td> <input Type="radio" name="Age">Under 16
+  <br></br>    <input Type="radio" name="Age">16 or Older </td></tr>
+
+<a href="Registeration.html">      <input type="button" value="Submit" /> </a>
+  </form>
+  <p>
+    If you're having trouble signing in please cheack the tutorial link below <br />
+    <a href="Tutorial.html" target="_blank">Tutorial</a>
+  </p>
+</div>
+<p class="para-2">
+  Already have an account? <a href="login.html">Login here</a>
+</p>
+
+
+
+        </section>
+
+
+
+
+
+<!-- Java menu Script -->
+
+
+
+
+<script>
+
+      var navLinks = document.getElementById("navLinks")
+
+      function showmenu(){
+        navLinks.style.right = "0"
+      }
+      function hidemenu(){
+        navLinks.style.right = "-200px"
+      }
+</script>
+  </body>
+</html>

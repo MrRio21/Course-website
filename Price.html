@@ -1,0 +1,108 @@
+<!--- This is the prices page-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Prices</title>
+    <link rel="stylesheet" href="style2.css" />
+<!-- This is Font--->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <section class="header">
+        <nav>
+          <a href="firstpage.html"><img src="img/logo3.png" alt=""></a>
+          <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hidemenu()"></i>
+            <ul>
+               <li><a href="firstpage.html"> HOME </a></li>
+               <li><a href="about.html"> About Us </a></li>
+                <li><a href="log.html"> Sign in/Up </a></li>
+                <li><a href="cont.html"> Contact Us </a></li>
+                <li><a href="price.html"> PREMIUM </a></li>
+                <li><a href="courses.html"> Courses </a></li>
+            </ul>
+
+          </div>
+          <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+
+
+
+<!------ Cards ---->
+
+
+
+    <header>
+ <h1>Our Pricing</h1>
+      <h3>Check out our Prices</h3>
+      <div class="toggle">
+            <label>Annually</label>
+            <div class="toggle-btn">
+              <input type="checkbox" id="checkbox"
+              class="checkbox" />
+              <label for="checkbox" class="sub" id="suv">
+                <div class="circle"></div>
+            </label>
+          </div>
+          <label>Monthly</label>
+        </div>
+      </header>
+
+<!-- cards -->
+
+        <div class="cards">
+              <div class="card shadow">
+                  <ul>
+                    <li class="pack">Basic</li>
+                    <li id="basic" class="price bottom-bar">&dollar;
+                      49.99</li>
+                      <li class="bottom-bar"> 2 Certifications/ Month</li>
+                      <li class="bottom-bar">Limited Instructer support</li>
+                      <li class="bottom-bar">Limited Downloads</li>
+                      <li>
+                          <button class="btn">Learn More</button>
+                          </li>
+                  </ul>
+              </div>
+
+
+                <div class="card active">
+                  <ul>
+                    <li class="pack">Professional</li>
+                    <li id="basic" class="price bottom-bar">&dollar;
+                      249.99</li>
+                      <li class="bottom-bar">5 Certifications/ Month</li>
+                      <li class="bottom-bar">24/7 Support</li>
+                      <li class="bottom-bar">You can Download Material</li>
+                      <li>
+                          <button class="btn
+                          active-btn">Learn More</button>
+                          </li>
+                          <button class="btn
+                          active-btn">Confirm</button>
+                          </li>
+                  </ul>
+                </div>
+
+
+           <div class="card shadow">
+                  <ul>
+                    <li class="pack">Master</li>
+                    <li id="basic" class="price bottom-bar">&dollar;
+                      399.99</li>
+                      <li class="bottom-bar">Unlimited Certifications</li>
+                      <li class="bottom-bar">24/7 Support</li>
+                      <li class="bottom-bar">Subtitled Material Downloads</li>
+                      <li>
+                          <button class="btn">Learn More</button>
+                          </li>
+                  </ul>
+                </div>
+          </div>
+      </body>
+</html>
